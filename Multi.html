@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Multi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="main">
+        <h1>Welcome to QTrip</h1>
+        <p>Explore the word with fantastic places</p>
+        <div class="search-box">
+            <form action="" id="search">
+                <input type="text" name="search" id="srch" placeholder="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </section>
+    <section class="main2">
+        <div class="item">
+            <img src="https://media.webdunia.com/_media/hi/img/article/2019-04/06/full/1554555068-512.jpg"
+                alt="Lalkila">
+            <h4>Lalkila</h4>
+        </div>
+        <div class="item">
+            <img src="https://hblimg.mmtcdn.com/content/hubble/img/mathura/mmt/activities/m_activities_mathura_prem_mandir_l_311_640.jpg"
+                alt="Mathura">
+            <h4>Mathura</h4>
+        </div>
+        <div class="item">
+            <img src="https://t3.ftcdn.net/jpg/02/00/55/94/360_F_200559473_wEDZgxSDPPjQfgX3sQqXcjz4ph1a79Yt.jpg"
+                alt="Mumbai">
+            <h4>Mumbai</h4>
+        </div>
+        <div class="item">
+            <img src="https://thumbs.dreamstime.com/b/taj-mahal-agra-india-morning-light-reflection-water-uttar-pradesh-108954918.jpg"
+                alt="Taj mahal">
+            <h4>Taj mahal Agra</h4>
+        </div>
+        <div class="item">
+            <img
+                src="https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/08/16/Pictures/_dbca9ffa-a138-11e8-9345-8d51f8ed9678.jpg">
+            <h4>Goa beach</h4>
+        </div>
+        <div class="item">
+            <img src="https://t4.ftcdn.net/jpg/02/94/27/73/240_F_294277354_ev3qw00wjlHAfhqRdEozsrVRpbhixC3S.jpg"
+                alt="Pizza">
+            <h4>Singapore</h4>
+        </div>
+    </section>
+    <section class="main3">
+        <form action="/submit-data" method="POST">
+            <fieldset>
+                <label for="referrer">Where will you go? Please select.</label> <br>
+                <select name="referrer" id="referrer" >
+                    <option value="" >(select one)</option>
+                    <option value="1">Lalkila</option>
+                    <option value="2">Mathura</option>
+                    <option value="3">Mumbai</option>
+                    <option value="4">Taj mahal Agra</option>
+                    <option value="5">Goa beach</option>
+                    <option value="6">Singapore</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="number">Please select how many people will be go.<br><input type="number" id="member"
+                        name="mamber" min="0" maxlength="10" placeholder="Enter How many mamber"></label>
+            </fieldset>
+            <fieldset>
+                <label>How will you go? Please select one.</label><br>
+                <label for="referrer">Bus<input type="radio" name="" class="" checred></label>
+                <label for="referrer">Train<input type="radio" name="" class="" checred></label>
+                <label for="referrer">Flight<input type="radio" name="" class="" checred></label>
+                <label for="referrer">Other<input type="radio" name="" class="" checred></label>
+            </fieldset>
+            <fieldset>
+                <label>Where will you stay? Please select.</label> <br>
+                <label for="">Hotel<input type="checkbox" id="" name="" class=""></label>
+                <label for="">reant house<input type="checkbox" id="" name="" class=""></label>
+                <label for="">hostale<input type="checkbox" id="" name="" class=""></label>
+            </fieldset>
+            <fieldset>
+                <label for="number">How many days will you stay? <br><input type="number" id="member" name="mamber"
+                        min="0" maxlength="100" placeholder="Enter how many days"></label>
+            </fieldset>
+            <fieldset>
+                <label for="https://t4.ftcdn.net/jpg/02/98/98/89/240_F_298988903_bSFl4L5DLRd09026JjS1JEsOpAOZiTOA.jpg">
+                    <input class="inline"
+                        id="https://t4.ftcdn.net/jpg/02/98/98/89/240_F_298988903_bSFl4L5DLRd09026JjS1JEsOpAOZiTOA.jpg"
+                        type="checkbox" required name="terms-and-conditions" /> I accept the <a
+                        href="https://t4.ftcdn.net/jpg/02/98/98/89/240_F_298988903_bSFl4L5DLRd09026JjS1JEsOpAOZiTOA.jpg">terms
+                        and
+                        conditions</a><br>
+                </label>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Submit" />
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>

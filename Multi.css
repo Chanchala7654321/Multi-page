@@ -1,0 +1,82 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 80%;
+    /* height: 10%; */
+   margin-left: 9%;
+}
+h1{
+    padding-top: 2%;
+    padding-left: 3%;
+}
+p{
+ padding-left: 5%;
+}
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+.item h4 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #333;
+}
+.item {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ffffff;
+}
+.main2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px 20px;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    margin-left: 8%;
+
+}
+#search, i{
+    display: block;
+    margin-left: 25%;
+}
+.main3{
+    background-color: black;
+    color: white;
+    font-family: Tahoma;
+    font-size: 16px;
+    width: 60%;
+    height: 50%;
+    margin-left: 19%;
+}
+label {
+    padding-left: 9%;
+}
+
+select{
+    padding-left: 9%;
+    margin-left: 9%;
+}
+#member{
+    margin-left: 9%;
+}
+input[type="submit"] {
+    display: block;
+    width: 10%;
+    margin-left: 13% ;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+  }
